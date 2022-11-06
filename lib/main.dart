@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebaseapp/firebase_options.dart';
+import 'package:firebaseapp/ui/auth/loginScreen.dart';
 import 'package:firebaseapp/ui/splashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const SplashScreen(),
+      home: const LoginScreen(),
     );
   }
 }
